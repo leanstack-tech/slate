@@ -55,7 +55,7 @@ curl "api_endpoint_here" \
 
 > Make sure to replace `access_key_from_dashboard` with your API key.
 
-Leanstack uses access_token to give you access to the API. You can sign up here to create your own key [developer portal](http://example.com/developers).
+Leanstack uses access_token to give you access to the API. You can sign up here to create your own key [developer portal](https://leanstack.co/enterprise/signup) and retrieve your keys from the settings area. For test requests use sandbox key, for live requests use live keys.
 
 You can also provide a debug_id in your headers to leanstack. You can use this to debug requests if there are issues
 
