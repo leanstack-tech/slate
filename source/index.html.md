@@ -837,6 +837,10 @@ curl --location --request POST 'https://api.leanstack.co/v1/enterprise/domains' 
             "domain_name": "ourwalkers.com",
             "expiry": "2022-12-02T09:59:53.000Z",
             "created_at": "2021-12-02T09:59:53.898Z",
+            "privacy_info": {
+                "has_privacy": true,
+                "expiry": "2023-01-19T19:55:29.000Z"
+            },
             "customer_id": 312
         },
         {
@@ -845,6 +849,7 @@ curl --location --request POST 'https://api.leanstack.co/v1/enterprise/domains' 
             "domain_name": "finalwalkers.com",
             "expiry": "2022-12-02T09:57:09.000Z",
             "created_at": "2021-12-02T09:57:09.747Z",
+            "privacy_info": null,
             "customer_id": 312
         },
         {
@@ -853,6 +858,7 @@ curl --location --request POST 'https://api.leanstack.co/v1/enterprise/domains' 
             "domain_name": "thewalkersorganisation.com",
             "expiry": "2022-12-02T09:50:48.000Z",
             "created_at": "2021-12-02T09:50:48.828Z",
+            "privacy_info": null,
             "customer_id": 312
         }
     ],
@@ -932,6 +938,10 @@ curl --location --request GET 'https://api.leanstack.co/v1/enterprise/domain/{do
     "expiry": "2022-12-06T08:08:27.000Z",
     "customer_id": 311,
     "customer_name": "Bob Brown",
+    "privacy_info": {
+        "has_privacy": true,
+        "expiry": "2023-01-19T19:55:29.000Z"
+    },
     "nameservers": {
         "ns1": "ns1.sedoparking.com",
         "ns2": "ns2.sedoparking.com",
